@@ -11,7 +11,7 @@ Examen práctico: Ciclo de vida de un proyecto informático
 
 ---
 
-## 1. Objetivo principal (5 min)
+## 1. Objetivo principal 
 
 ### 1.1 Nombre del proyecto
 **PedidoÁgil — Sistema web de gestión de pedidos**
@@ -48,7 +48,6 @@ Desarrollar un sistema web que permita **registrar, consultar, dar seguimiento y
 - Datos ficticios, sin conexión a base de datos.
 
 **Fuera del alcance de esta versión (versiones futuras):**
-- Base de datos real y servidor (back-end).
 - Autenticación de usuarios y roles reales.
 - Pagos en línea.
 - Facturación electrónica.
@@ -110,7 +109,7 @@ Desarrollar un sistema web que permita **registrar, consultar, dar seguimiento y
 
 ---
 
-## 3. Planificación (5 min)
+## 3. Planificación 
 
 ### 3.1 Asignación de responsabilidades
 
@@ -156,7 +155,7 @@ Git y GitHub (control de versiones), un grupo de mensajería para comunicación 
 
 ---
 
-## 4. Diseño detallado (10 min)
+## 4. Diseño detallado
 
 ### 4.1 Arquitectura propuesta
 
@@ -257,7 +256,7 @@ CLIENTE 1 ──── N PEDIDO 1 ──── N DETALLE_PEDIDO N ──── 1
 
 ---
 
-## 5. Ejecución — Prototipo (15 min)
+## 5. Ejecución — Prototipo
 
 El prototipo se encuentra en este repositorio y cumple el mínimo solicitado:
 
@@ -283,7 +282,7 @@ pedidoagil/
 
 ---
 
-## 6. Seguimiento y control (5 min)
+## 6. Seguimiento y control
 
 Se verifica el avance real contra lo planificado y se prueba el prototipo.
 
@@ -319,7 +318,7 @@ Se verifica el avance real contra lo planificado y se prueba el prototipo.
 
 ---
 
-## 7. Aceptación (3 min)
+## 7. Aceptación
 
 **¿El prototipo demuestra la solución planteada?**
 **Sí.** El prototipo demuestra de forma visual y funcional que el sistema permite registrar clientes y productos, crear pedidos con cálculo automático de totales, validar el stock y dar seguimiento al estado de cada pedido, que era el problema central del cliente.
@@ -340,7 +339,7 @@ Se verifica el avance real contra lo planificado y se prueba el prototipo.
 
 ---
 
-## 8. Cierre (2 min)
+## 8. Cierre 
 
 ### Lista de verificación
 - [ ] El proyecto está subido a GitHub.
