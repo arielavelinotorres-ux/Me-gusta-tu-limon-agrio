@@ -16,23 +16,11 @@ La propuesta completa (objetivo, análisis, planificación, diseño, seguimiento
 Abra `index.html` con doble clic en el navegador. No requiere instalar nada.
 
 ## Cómo publicarlo en GitHub Pages
-1. Cree un repositorio **público** en GitHub (por ejemplo, `pedidoagil`).
-2. Suba **todo el contenido de esta carpeta** a la raíz del repositorio (`index.html`, `css/`, `js/`, `PROPUESTA.md`, `README.md`).
-   - Desde la web: *Add file → Upload files*, arrastre los archivos y carpetas y pulse *Commit changes*.
-   - O con Git:
-     ```bash
-     git init
-     git add .
-     git commit -m "Prototipo PedidoÁgil"
-     git branch -M main
-     git remote add origin https://github.com/<usuario>/pedidoagil.git
-     git push -u origin main
-     ```
-3. En el repositorio vaya a **Settings → Pages**.
-4. En *Build and deployment*, elija **Deploy from a branch**, rama **main** y carpeta **/ (root)**, y pulse **Save**.
-5. Espere 1 o 2 minutos. La URL aparecerá en esa misma pantalla:
-   `https://<usuario>.github.io/pedidoagil/`
-6. Abra la URL y verifique que el prototipo carga correctamente.
+1. Sube los cambios a la rama `main` de este repositorio.
+2. En GitHub, abre **Settings → Pages** y configura *Build and deployment* como **GitHub Actions**.
+3. En **Actions**, espera a que termine correctamente el workflow **Deploy static content to Pages**.
+4. Comparte esta dirección:
+   `https://arielavelinotorres-ux.github.io/Me-gusta-tu-limon-agrio/`
 
 ## Estructura
 ```
